@@ -131,27 +131,3 @@ def convert_representation(polymino: Polymino, representation: dict, name = '') 
     for ind, repr in enumerate(representation):
         if set(repr).issubset(set_coords): result.append(ind)
     return [polymino.name + name] + result
-
-    
-
-
-# def make_experiment(): 
-    
-#     print()
-#     cover = DLX(columns, polyminoes)
-#     print("Solutions: \n", cover(key = sortkey))
-# if __name__ == '__main__':
-#     make_experiment()
-
-
-    #     
-    # print(polyminoes.as_list())
-    # polyminoes.rotate_90()
-    # print(polyminoes.as_list())
-    # polyminoes.rotate_90()
-    # print(polyminoes.as_list())
-    # polyminoes.rotate_90()
-    # print(polyminoes.as_list())
-    # polyminoes.rotate_90()
-    # print(polyminoes.as_list())
-    # polyminoes.rotate_90()
